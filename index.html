@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="valentine-text">Happy Valentine's Day, My Love! ❤️</h1>
+        <p class="message">You make my world beautiful. Every moment with you is special. I love you forever! 💖</p>
+        <button class="btn btn-primary" onclick="showSurprise()">Click for a Surprise</button>
+        <div id="surprise" class="hidden">
+            <img src="assets/images/heart.gif" alt="Love" class="heart-img">
+            <p class="special-message">You are my heart, my soul, my everything! 💘</p>
+        </div>
+        <canvas id="valentineCanvas"></canvas>
+    </div>
+    <div id="surprise" class="hidden">
+        <img src="assets/images/heart.gif" alt="Love" class="heart-img">
+        <p class="special-message">You are my heart, my soul, my everything! 💘</p>
+    </div>
+    
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
